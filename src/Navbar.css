@@ -1,0 +1,45 @@
+.bg-body-tertiary{
+    background-color: #2d2e32;
+}
+
+.nav-item {
+    
+}
+.navbar-brand{
+    color: #00ab55 !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    cursor: pointer;
+    padding-top: 20px;
+}
+.nav-item a{
+    color: #ffff !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding-top: 20px;
+}
+.nav-item a:hover{
+    color: #00ab55 !important;
+}
+.nav-link button{
+   
+    background-color: tomato ;
+    color: #ffff !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s linear, color 0.3s linear;
+}
+.nav-link button:hover{
+    background-color: #00ab55  ;
+}
+/* 
+.navbar-toggler-icon{
+    color: tomato !important;
+    background-color: #00ab55  ;
+
+} */

@@ -1,0 +1,87 @@
+.contact_container {
+  min-height: 10vh;
+  background-color: #25262a;
+  padding-top: 5%;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 5rem;
+  color: #00ab55;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+
+.whatsapp-icon:hover {
+  color: tomato;
+}
+
+.whatsapp-icon p {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  margin-top: 5px;
+  font-weight: 300;
+}
+
+.contact_left h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-top: 30px;
+  color: #00ab55;
+}
+
+.contact_lead {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.contact_left p,
+.contact_right {
+}
+
+.contact_icons {
+  padding-top: 50px;
+}
+.contact_right p {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.contact_icons p {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.contact_icons p svg {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.phoneIcon {
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+.EmailIcon {
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+
+.phoneIcon:hover {
+  transform: scale(1.2);
+}
+.EmailIcon:hover {
+  transform: scale(1.2);
+}
+

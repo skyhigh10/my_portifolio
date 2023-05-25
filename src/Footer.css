@@ -1,0 +1,56 @@
+.footer_container{
+    
+    min-height: 10vh;
+    background-color: #2d2e32;
+    padding-top: 30px;
+}
+.footer-left{
+}
+
+.footer-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #7e7777;
+    font-size: 2;
+  }
+  
+  .footer-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-social-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #7e7777;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social-icon:hover {
+    color: #00ab55;
+    transform: scale(1.2);
+
+  }
+
+
+
+@media (max-width: 768px){
+  .footer_container{
+    
+    min-height: 10vh;
+    background-color: #2d2e32;
+    padding-top: 30px;
+    text-align: center;
+}
+
+ .footer-social-icons {
+    display: flex;
+    padding-right: 20%;
+    
+  }
+}

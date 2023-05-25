@@ -1,0 +1,114 @@
+.service_container {
+  min-height: 100vh;
+  background-color: #25262a;
+  padding-top: 5%;
+}
+
+.service_container h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+  color: #00ab55;
+  font-weight: 600;
+}
+
+.service_left {}
+
+.service_left h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5rem;
+  color: #ffff;
+  font-weight: 600;
+}
+
+.service_left p {
+  color: #ffff;
+  margin-left: 5px;
+}
+
+.service_platform {
+  display: flex;
+}
+
+.service_platform p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #b1adc1;
+  font-weight: 400;
+  display: flex;
+}
+
+.service_framework {
+  display: flex;
+}
+
+.service_framework p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #b1adc1;
+  font-weight: 400;
+  display: flex;
+}
+
+.service_right {}
+
+.service_right h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5rem;
+  color: #ffff;
+  font-weight: 600;
+}
+
+.service_right p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #ffff;
+  font-weight: 400;
+  display: flex;
+}
+
+
+
+@media (max-width: 768px) {
+
+  .service_left {}
+
+  .service_left h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.5rem;
+    color: #ffff;
+    font-weight: 600;
+  }
+
+
+  .service_left p {
+    color: #ffff;
+    margin-left: 5px;
+  }
+
+  .service_platform {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .service_platform p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    color: #b1adc1;
+    font-weight: 400;
+    flex-grow: 1;
+  }
+
+  .service_framework {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .service_framework p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    color: #b1adc1;
+    font-weight: 400;
+    flex-grow: 1;
+  }
+
+}
